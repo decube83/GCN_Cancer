@@ -322,7 +322,7 @@ class model_perf(object):
         ## For co-expression we get a stacktrace because the number of genes is lower
         ## Why only analyse the test data?
         #for i in range(7100):
-        for i in range(4001,test_data.shape[1]):
+        for i in range(test_data.shape[1]):
         #for i in range(3200, test_data.shape[1]):
             #print(' On gene number \t{}'.format(i), end="\r")
             # if i%1000==0 and i!=0:
